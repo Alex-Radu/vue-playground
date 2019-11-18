@@ -6,9 +6,9 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><router-link to="/home">🏡 Home</router-link></li>
+            <li><router-link to="/about">🧐 About</router-link></li>
+            <li><router-link to="/contact">📬 Contact</router-link></li>
           </ul>
         </nav>
     </div>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'avatar-menu',
+  name: 'AvatarMenu',
 };
 </script>
 
@@ -26,6 +26,7 @@ export default {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
+    z-index: 99;
 
     .menu-header {
       background: #F87060;

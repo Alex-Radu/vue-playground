@@ -8,6 +8,8 @@
     <title>alex-radu.github.io</title>
     <style>
       * + * {
+        box-sizing: border-box;
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
       }
@@ -20,14 +22,11 @@
         height: 100vh;
         position: fixed;
         width: 100vw;
-        z-index: 1;
+        z-index: -1;
       }
     </style>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but alex-radu.github.io doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <canvas id="world"></canvas>
     <div id="app"></div>
     <script src="<%= BASE_URL %>confetti.js"></script>
