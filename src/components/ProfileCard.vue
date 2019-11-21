@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-card">
+  <div>
     <Card class="profile-card">
       <template v-slot:header>
         Profile Card
@@ -41,6 +41,8 @@ export default {
   }
 
   h1 {
+    border-bottom: 2px dashed #F87060;
+    border-top: 2px dashed #F87060;
     margin: 0 2rem;
     text-align: center;
   }
