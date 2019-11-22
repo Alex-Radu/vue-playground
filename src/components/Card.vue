@@ -44,7 +44,7 @@ export default {
 
   header {
     background: #F87060;
-    color: white;
+    color: #173753;
     font-size: 1.25rem;
     font-weight: bold;
     height: 3rem;

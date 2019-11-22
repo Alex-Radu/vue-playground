@@ -2,7 +2,7 @@
   <div>
     <Card class="profile-card">
       <template v-slot:header>
-        Profile Card
+        Profile
       </template>
       <img class="profile" src="../../assets/images/avatar.png" alt>
       <h1>Alex Radu</h1>
@@ -43,6 +43,7 @@ export default {
   h1 {
     border-bottom: 2px dashed #F87060;
     border-top: 2px dashed #F87060;
+    color: #173753;
     margin: 0 2rem;
     text-align: center;
   }
